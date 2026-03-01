@@ -8,7 +8,7 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '6522435665').split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Zzoorrooo')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'afilestreambot')
