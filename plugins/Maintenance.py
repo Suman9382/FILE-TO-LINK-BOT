@@ -11,7 +11,7 @@ async def maintenance_checker(client, message: Message):
     chat_id = message.chat.id
     if MAINTENANCE_MODE and user_id not in BYPASS_IDS and chat_id not in BYPASS_IDS:
         await message.reply(
-            "🚧 **Bot is under Maintenance!**\n\nPlease try again later.\n\nSupport Group: @AkMovieVerse",
+            "🚧 **Bot is under Maintenance!**\n\nPlease try again later.\n\nSupport Group: @RexBots_Official",
             quote=True
         )
         return
