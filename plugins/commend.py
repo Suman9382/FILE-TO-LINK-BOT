@@ -141,7 +141,7 @@ async def cb_handler(client, query):
         await query.message.delete()
     elif query.data == "about":
         buttons = [[
-	    InlineKeyboardButton('💻', url='https://t.me/AkMovieVerse')
+	    InlineKeyboardButton('💻', url='https://t.me/RexBots_Official')
 	],[
             InlineKeyboardButton('• ʜᴏᴍᴇ •', callback_data='start'),
 	    InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
