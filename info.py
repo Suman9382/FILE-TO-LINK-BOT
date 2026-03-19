@@ -3,12 +3,12 @@ from Script import script
 
 # 🚀 __Bot Configuration__
 SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '28578880'))
+API_HASH = environ.get('API_HASH', '5f8c87efde57e01d12c0ce98ffdf5928')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '6814614245').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003377088473").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'skm')
 BOT_USERNAME = environ.get("BOT_USERNAME", '@video_to_link_generation_bot')
