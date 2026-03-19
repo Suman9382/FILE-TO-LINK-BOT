@@ -9,22 +9,22 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Zzoorrooo')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'afilestreambot')
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003377088473").split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'skm')
+BOT_USERNAME = environ.get("BOT_USERNAME", '@video_to_link_generation_bot')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AkMovieVerse')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/PurelySin')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/Hasjsgdkd_bot')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/durov')
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_open_link_ak')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/how_to_open_link_ak')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002493002460'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003729816890'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003729816890'))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003729816890'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002401879443"))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003759762110'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003759762110'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003759762110'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003759762110'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003759762110"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
@@ -43,7 +43,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "")
-DB_NAME = environ.get('DATABASE_NAME', "akf")
+DB_NAME = environ.get('DATABASE_NAME', "skm")
 
 # 📸 __Media & Images__
 QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
