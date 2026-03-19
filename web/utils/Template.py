@@ -1,5 +1,5 @@
 class rexbots_template(object):
-    NAME = "AkMovieVerse"
+    NAME = "video_to_link_generation_bot"
 
     DISCLAIMER = (
         "This platform provides high-speed streaming and download services. "
