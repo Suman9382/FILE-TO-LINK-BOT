@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(i) for i in environ.get('ADMINS', '6814614245').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003377088473").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'skm')
-BOT_USERNAME = environ.get("BOT_USERNAME", '@video_to_link_generation_bot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'video_to_link_generation_bot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/Hasjsgdkd_bot')
