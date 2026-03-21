@@ -6,7 +6,7 @@ class rexbots_template(object):
         "Strictly for personal use. Report any copyright infringements or inappropriate content to our support team."
     )
 
-    REPORT_LINK = "https://t.me/AK_ownerbot"
+    REPORT_LINK = "https://t.me/Hasjsgdkd_bot"
 
     # Premium Color Palette (Dark Theme)
     COLOURS = {
