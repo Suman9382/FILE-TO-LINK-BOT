@@ -33,7 +33,7 @@ ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
 IS_SHORTLINK = False
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
-PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
+PROTECT_CONTENT = environ.get('PROTECT_CONTENT', True)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'rexbots_official')
+NAME = environ.get('name', 'SM')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
