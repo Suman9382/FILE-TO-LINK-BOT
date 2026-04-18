@@ -27,19 +27,19 @@ VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003402780677'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003402780677"))
 
 # ✅ __Feature Toggles__
-VERIFY = False  # Enable user verification
+VERIFY = True # Enable user verification
 FSUB = environ.get("FSUB", True)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
-IS_SHORTLINK = False
+IS_SHORTLINK = True
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', True)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
-BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
+BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', True)
 
 # 🔗 __Shortlink Configuration__
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkme.io')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f6a16e5604aab9e7b6afb641d78b916fdaca2ccc')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "")
@@ -61,8 +61,8 @@ CHANNEL_FILE_CAPTION = environ.get('CHANNEL_FILE_CAPTION', script.CAPTION)
 PING_INTERVAL = int(environ.get("PING_INTERVAL", 1200))
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', 60))
 RATE_LIMIT_TIMEOUT = int(environ.get("RATE_LIMIT_TIMEOUT", 600))
-MAX_FILES = int(environ.get("MAX_FILES", 50))
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
+MAX_FILES = int(environ.get("MAX_FILES", 500))
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 3))  # Hours
 
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
